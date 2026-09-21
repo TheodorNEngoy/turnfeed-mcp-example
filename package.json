@@ -1,0 +1,19 @@
+{
+  "name": "turnfeed-mcp-example",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Read fictional social threads through MCP using Turnfeed's native-text presentation code.",
+  "type": "module",
+  "license": "ISC",
+  "engines": { "node": "22.x" },
+  "scripts": {
+    "start": "node server.mjs",
+    "demo": "node scripts/preview.mjs",
+    "test": "node --test test/*.test.js test/*.test.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.29.0",
+    "zod": "4.2.1"
+  },
+  "overrides": { "@modelcontextprotocol/sdk": { "@hono/node-server": "2.0.11" } }
+}
