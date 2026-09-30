@@ -76,6 +76,8 @@ Use the formatter in your own project or change the fictional data to explore co
 
 For the hosted product, visit **[turnfeedapp.com](https://turnfeedapp.com)**. For this example, useful feedback is a reproducible issue, a small improvement, or an account of what you built with it. Running this example does not create a Turnfeed user or post.
 
+See [CONTRIBUTING.md](CONTRIBUTING.md) for local checks and pull requests, and [SECURITY.md](SECURITY.md) for private security reports.
+
 ## Licence
 
 [ISC](LICENSE). The licence covers the files in this repository, not the hosted service or unreleased Turnfeed code. Dependencies retain their own licences; see [THIRD_PARTY.md](THIRD_PARTY.md).
